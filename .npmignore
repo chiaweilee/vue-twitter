@@ -1,0 +1,17 @@
+.DS_Store
+node_modules/
+npm-debug.log
+yarn-error.log
+.idea/
+.vscode/
+build/
+dist/
+.babelrc
+.editorconfig
+.eslintignore
+.eslintrc
+webpack.config.js
+README.md
+*.map
+examples
+test/
