@@ -18,7 +18,7 @@ Vue.use(twitter)
 ```vue.js
 <template>
   <twitter>
-    <slot name="loading">I am loading...</slot>
+    <div slot="loading">loading .....</div>
     <a class="twitter-timeline" href="https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw">Tweets by realDonaldTrump</a>
   </twitter>
 </template>
