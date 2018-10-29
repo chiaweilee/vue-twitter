@@ -18,7 +18,6 @@ Vue.use(twitter)
 ```vue.js
 <template>
   <twitter>
-    <div slot="loading">loading .....</div>
     <a class="twitter-timeline" href="https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw">Tweets by realDonaldTrump</a>
   </twitter>
 </template>
@@ -29,6 +28,17 @@ Vue.use(twitter)
 `<a class="twitter-timeline" href="https://twitter.c...` comes from https://publish.twitter.com/#
 
 get your widget a tag from above link, and parse it as default slot(except the script tag).
+
+### Use loading
+
+```vue.js
+<template>
+  <twitter>
+    <div slot="loading">loading .....</div>
+    <a class="twitter-timeline" href="https://twitter.com/realDonaldTrump?ref_src=twsrc%5Etfw">Tweets by realDonaldTrump</a>
+  </twitter>
+</template>
+```
 
 ### Others
 
