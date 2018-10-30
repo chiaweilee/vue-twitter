@@ -27,7 +27,7 @@ Vue.use(twitter)
 
 `<a class="twitter-timeline" href="https://twitter.c...` comes from https://publish.twitter.com/#
 
-get your widget a tag from above link, and parse it as default slot(except the script tag).
+get your `widget HTML code` from above link, and parse it as default slot(except the script tag).
 
 ### Use loading
 
@@ -42,7 +42,7 @@ get your widget a tag from above link, and parse it as default slot(except the s
 
 ### Others
 
-#### use as component
+#### use as component(use vue-loader)
 
 ```
 import { twitter } from 'vue-twitter'
@@ -53,7 +53,7 @@ export default {
 }
 ```
 
-#### use as component(without template complier)
+#### use as component(need template complier on Vue-cli3)
 
 ```
 import twitter from 'vue-twitter/lib/twttr.js'
