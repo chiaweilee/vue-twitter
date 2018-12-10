@@ -1,5 +1,7 @@
 ## vue-twitter
 
+[![Greenkeeper badge](https://badges.greenkeeper.io/chiaweilee/vue-twitter.svg)](https://greenkeeper.io/)
+
 <a href="https://npmcharts.com/compare/vue-twitter?minimal=true"><img src="https://img.shields.io/npm/dm/vue-twitter.svg" alt="Downloads"></a>
 <a href="https://www.npmjs.com/package/vue-twitter"><img src="https://img.shields.io/npm/v/vue-twitter.svg" alt="Version"></a>
 <a href="https://www.npmjs.com/package/vue-twitter"><img src="https://img.shields.io/npm/l/vue-twitter.svg" alt="License"></a>
